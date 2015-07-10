@@ -1,0 +1,169 @@
+/* Full screen image    
+/*******************************/
+#fireWrapper {
+  background-image: url(../img/Fire-And-Smoke.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  }
+
+/* Index Page Image    
+/*******************************/
+#indexLogo {
+	margin-top: 20px;
+}
+
+.indexPgImg {
+  border: 5px solid rgb(240, 87, 45);
+  border-radius: 50%;
+  }
+
+/* About gallery of images  
+/*******************************/
+.aboutPgImg {
+  border: 5px solid rgb(240, 87, 45);
+  border-radius: 50%;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto
+} 
+
+/* Menu gallery of images  
+/*******************************/
+
+.img {
+  width: 400px;
+  width: 300px;
+  border-radius: 10%;
+  margin-right: 2%;
+  margin-top: 25px;
+  border: 5px solid #333;
+  overflow: hidden;
+  }  
+
+/* Contact page image  
+/*******************************/
+.contactPgImg {
+  border: 5px solid rgb(240, 87, 45);
+  border-radius: 3%;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.contactPgImg p {
+  text-align: center;
+ }
+
+.contactMap {
+  width: 50%;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* Layout
+/*******************************/
+#pizzaImg01 {
+  border-radius: 10%;
+  border: 1px solid black;
+ } 
+
+
+/* Page informatopm "info" div section
+/*******************************************/
+.indexInfo {
+  background-color: rgb(240, 87, 45);
+  border: 2px solid black;
+  margin-top: 20px;
+  padding-bottom: 3px;
+ } 
+.indexInfo h2 {  
+  color: black;
+  font-weight: 600;
+ }
+.indexInfo p {
+  color: black;
+  font-weight: 500;
+ }
+
+.menuInfo {
+  background-color: rgb(240, 87, 45);
+  border: 2px solid black;
+  width: 80%;
+  margin: 15px auto;
+}
+.menuInfo h1, h2, p1 {
+  color: black;
+  text-align: center;
+}
+.menuInfo h3 {
+  color: black;
+  text-align: center;
+}
+.menuInfo p {
+  text-align: justify;
+  margin: 0% auto;
+  padding: 0 3%;
+}
+.menuInfo .price {
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+}
+.menuInfo .oneLine {
+  text-align: center;
+}
+.menuInfo .centerP1 {
+  text-align: center;
+  color: black;
+  font-style: italic;
+  margin: 0% auto;
+} 
+
+.contactInfo p {
+  text-align: center;
+  margin-top: 25px;
+  padding: 0 3%;
+}
+
+/* Footer  
+/*******************************/
+
+.footerColor1 {
+  color: White;
+  text-align: center;
+}
+
+
+
+
+
+
+/* Picture Overlay Coding 
+/*******************************/
+#overlay {
+  background:rgba(0,0,0,.8);
+  width:100%;
+  height:300%;
+  position: fixed;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;  
+  }
+
+#overlay img {
+  margin-top: 10%;
+  max-width: 100%;
+  }
+
+#overlay p {
+  color:white;
+  }
+
+
+
+
