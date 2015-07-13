@@ -32,4 +32,4 @@ $caption.text(captionText);
 $overlay.click(function(){
   //Hide the overlay
   $overlay.hide();
-});
+}); 

@@ -6,12 +6,21 @@
   background-size: auto;
   }
 
+/* Menu bar    
+/*******************************/
+.contain-to-grid,
+.top-bar {
+  background-color: rgb(240, 87, 45);
+}
+.contain-to-grid {
+  border: 2px solid #333;
+}
+
 /* Index Page Image    
 /*******************************/
 #indexLogo {
 	margin-top: 20px;
 }
-
 .indexPgImg {
   border: 5px solid rgb(240, 87, 45);
   border-radius: 50%;
@@ -71,7 +80,6 @@
   border: 1px solid black;
  } 
 
-
 /* Page informatopm "info" div section
 /*******************************************/
 .indexInfo {
@@ -89,13 +97,14 @@
   font-weight: 500;
  }
 
-.menuInfo {
+.menuInfo,
+.contactInfo {
   background-color: rgb(240, 87, 45);
   border: 2px solid black;
   width: 80%;
   margin: 15px auto;
 }
-.menuInfo h1, h2, p1 {
+.menuInfo h1, h2 {
   color: black;
   text-align: center;
 }
@@ -116,17 +125,17 @@
 .menuInfo .oneLine {
   text-align: center;
 }
-.menuInfo .centerP1 {
-  text-align: center;
-  color: black;
-  font-style: italic;
-  margin: 0% auto;
-} 
-
+.menuInfo .centerP1,
 .contactInfo p {
   text-align: center;
-  margin-top: 25px;
-  padding: 0 3%;
+  font-style: italic;
+  padding: 3% 3%;
+  margin: 0 auto;
+}
+
+.contactInfo p {
+  margin: 25px 0;
+  padding: 0% 3%;
 }
 
 /* Footer  
@@ -134,13 +143,10 @@
 
 .footerColor1 {
   color: White;
+}
+.footer {
   text-align: center;
 }
-
-
-
-
-
 
 /* Picture Overlay Coding 
 /*******************************/
@@ -154,15 +160,37 @@
   display:none;
   text-align:center;  
   }
-
 #overlay img {
   margin-top: 10%;
   max-width: 100%;
   }
-
 #overlay p {
   color:white;
   }
+
+/* Change the p text to left align
+/* for very small screens
+/*********************************/
+@media screen and (max-width: 360px) {
+.menuInfo p {
+  text-align: left;
+  margin: 0% auto;
+  padding: 0 3%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
