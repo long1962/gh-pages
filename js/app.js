@@ -32,4 +32,8 @@ $caption.text(captionText);
 $overlay.click(function(){
   //Hide the overlay
   $overlay.hide();
+<<<<<<< HEAD
 });
+=======
+}); 
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b

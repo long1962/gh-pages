@@ -4,13 +4,30 @@
   background-image: url(../img/Fire-And-Smoke.jpg);
   background-repeat: no-repeat;
   background-size: auto;
+<<<<<<< HEAD
 }
 
 /* Page Images    
+=======
+  }
+
+/* Menu bar    
+/*******************************/
+.contain-to-grid,
+.top-bar {
+  background-color: rgb(240, 87, 45);
+}
+.contain-to-grid {
+  border: 2px solid #333;
+}
+
+/* Index Page Image    
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 /*******************************/
 #indexLogo {
 	margin-top: 20px;
 }
+<<<<<<< HEAD
 
 .indexPgImg,
 .aboutPgImg {
@@ -20,20 +37,49 @@
  
 /* Menu gallery of images  
 /*******************************/
+=======
+.indexPgImg {
+  border: 5px solid rgb(240, 87, 45);
+  border-radius: 50%;
+  }
+
+/* About gallery of images  
+/*******************************/
+.aboutPgImg {
+  border: 5px solid rgb(240, 87, 45);
+  border-radius: 50%;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto
+} 
+
+/* Menu gallery of images  
+/*******************************/
+
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 .img {
   width: 400px;
   width: 300px;
   border-radius: 10%;
   margin-right: 2%;
+<<<<<<< HEAD
   border: 5px solid #333;
   overflow: hidden;
 }  
+=======
+  margin-top: 25px;
+  border: 5px solid #333;
+  overflow: hidden;
+  }  
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 
 /* Contact page image  
 /*******************************/
 .contactPgImg {
   border: 5px solid rgb(240, 87, 45);
   border-radius: 3%;
+<<<<<<< HEAD
 }
 
 .contactMap {
@@ -57,6 +103,22 @@
 .aboutPgImg,
 .contactPgImg,
 .contactMap {
+=======
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.contactPgImg p {
+  text-align: center;
+ }
+
+.contactMap {
+  width: 50%;
+  display: block;
+  margin-top: 25px;
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
   margin-left: auto;
   margin-right: auto
 }
@@ -66,6 +128,7 @@
 #pizzaImg01 {
   border-radius: 10%;
   border: 1px solid black;
+<<<<<<< HEAD
 } 
 
 
@@ -92,6 +155,42 @@
   margin: 15px auto;
 }
   
+=======
+ } 
+
+/* Page informatopm "info" div section
+/*******************************************/
+.indexInfo {
+  background-color: rgb(240, 87, 45);
+  border: 2px solid black;
+  margin-top: 20px;
+  padding-bottom: 3px;
+ } 
+.indexInfo h2 {  
+  color: black;
+  font-weight: 600;
+ }
+.indexInfo p {
+  color: black;
+  font-weight: 500;
+ }
+
+.menuInfo,
+.contactInfo {
+  background-color: rgb(240, 87, 45);
+  border: 2px solid black;
+  width: 80%;
+  margin: 15px auto;
+}
+.menuInfo h1, h2 {
+  color: black;
+  text-align: center;
+}
+.menuInfo h3 {
+  color: black;
+  text-align: center;
+}
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 .menuInfo p {
   text-align: justify;
   margin: 0% auto;
@@ -99,6 +198,7 @@
 }
 .menuInfo .price {
   text-align: center;
+<<<<<<< HEAD
   font-size: 1.2em;
 }
 .menuInfo .centerP1 {
@@ -134,15 +234,43 @@
 /*******************************/
 ul li.selected a {
   font-size: 125%;
+=======
+  color: black;
+  font-size: 1.2em;
+}
+.menuInfo .oneLine {
+  text-align: center;
+}
+.menuInfo .centerP1,
+.contactInfo p {
+  text-align: center;
+  font-style: italic;
+  padding: 3% 3%;
+  margin: 0 auto;
+}
+
+.contactInfo p {
+  margin: 25px 0;
+  padding: 0% 3%;
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 }
 
 /* Footer  
 /*******************************/
+<<<<<<< HEAD
 .footerColor1 {
   color: White;
 }
 .footerColor2 {
   color: #333;
+=======
+
+.footerColor1 {
+  color: White;
+}
+.footer {
+  text-align: center;
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 }
 
 /* Picture Overlay Coding 
@@ -155,6 +283,7 @@ ul li.selected a {
   top:0;
   left:0;
   display:none;
+<<<<<<< HEAD
 }
 
 #overlay img {
@@ -165,3 +294,42 @@ ul li.selected a {
 #overlay p {
   color:white;
 }
+=======
+  text-align:center;  
+  }
+#overlay img {
+  margin-top: 10%;
+  max-width: 100%;
+  }
+#overlay p {
+  color:white;
+  }
+
+/* Change the p text to left align
+/* for very small screens
+/*********************************/
+@media screen and (max-width: 360px) {
+.menuInfo p {
+  text-align: left;
+  margin: 0% auto;
+  padding: 0 3%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
