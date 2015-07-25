@@ -4,50 +4,31 @@
   background-image: url(../img/Fire-And-Smoke.jpg);
   background-repeat: no-repeat;
   background-size: auto;
-<<<<<<< HEAD
-}
-
-/* Page Images    
-=======
   }
 
-/* Menu bar    
-/*******************************/
-.contain-to-grid,
-.top-bar {
-  background-color: rgb(240, 87, 45);
-}
-.contain-to-grid {
-  border: 2px solid #333;
+/* Full screen background color    
+/********************************/
+.bgColor {
+  background-color: rgba(255, 255, 153, .4);
 }
 
 /* Index Page Image    
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 /*******************************/
 #indexLogo {
 	margin-top: 20px;
 }
-<<<<<<< HEAD
 
 .indexPgImg,
-.aboutPgImg {
-  border: 5px solid rgb(240, 87, 45);
-  border-radius: 50%;
-}
- 
-/* Menu gallery of images  
-/*******************************/
-=======
-.indexPgImg {
+.aboutPgImg,
+.contactPgImg {
   border: 5px solid rgb(240, 87, 45);
   border-radius: 50%;
   }
 
 /* About gallery of images  
 /*******************************/
-.aboutPgImg {
-  border: 5px solid rgb(240, 87, 45);
-  border-radius: 50%;
+.aboutPgImg,
+.contactPgImg {
   display: block;
   margin-top: 25px;
   margin-left: auto;
@@ -56,71 +37,20 @@
 
 /* Menu gallery of images  
 /*******************************/
-
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
 .img {
   width: 400px;
   width: 300px;
   border-radius: 10%;
   margin-right: 2%;
-<<<<<<< HEAD
-  border: 5px solid #333;
-  overflow: hidden;
-}  
-=======
   margin-top: 25px;
   border: 5px solid #333;
   overflow: hidden;
-  }  
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
+}  
 
 /* Contact page image  
 /*******************************/
 .contactPgImg {
-  border: 5px solid rgb(240, 87, 45);
   border-radius: 3%;
-<<<<<<< HEAD
-}
-
-.contactMap {
-  width: 50%;
-}
-
-.aboutPgImg,
-.contactPgImg,
-.contactMap {
-  display: block;
- }
-
-.aboutPgImg,
-.img,
-.contactPgImg,
-.contactMap,
-.contactInfo p {
-  margin-top: 25px;
-} 
-
-.aboutPgImg,
-.contactPgImg,
-.contactMap {
-=======
-  display: block;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto
-}
-
-.contactPgImg p {
-  text-align: center;
- }
-
-.contactMap {
-  width: 50%;
-  display: block;
-  margin-top: 25px;
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
-  margin-left: auto;
-  margin-right: auto
 }
 
 /* Layout
@@ -128,34 +58,6 @@
 #pizzaImg01 {
   border-radius: 10%;
   border: 1px solid black;
-<<<<<<< HEAD
-} 
-
-
-/* Page informatopm "info" div section
-/*******************************************/
-.indexInfo,
-.menuInfo {
-  background-color: rgb(240, 87, 45);
-  border: 2px solid black;
-}
-
-.indexInfo {
-  margin-top: 20px;
-  padding-bottom: 3px;
-} 
-.indexInfo h2 {  
-  font-weight: 600;
-}
-.indexInfo p {
-  font-weight: 500;
-}
-.menuInfo {
-  width: 80%;
-  margin: 15px auto;
-}
-  
-=======
  } 
 
 /* Page informatopm "info" div section
@@ -165,125 +67,91 @@
   border: 2px solid black;
   margin-top: 20px;
   padding-bottom: 3px;
- } 
+} 
+
 .indexInfo h2 {  
-  color: black;
   font-weight: 600;
- }
+}
+
+.indexInfo p {
+  font-weight: 500;
+}
+
+.indexInfo h2,
 .indexInfo p {
   color: black;
-  font-weight: 500;
- }
+}
 
-.menuInfo,
-.contactInfo {
+.menuInfo {
   background-color: rgb(240, 87, 45);
   border: 2px solid black;
   width: 80%;
   margin: 15px auto;
 }
-.menuInfo h1, h2 {
-  color: black;
-  text-align: center;
-}
-.menuInfo h3 {
-  color: black;
-  text-align: center;
-}
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
+  
 .menuInfo p {
   text-align: justify;
   margin: 0% auto;
   padding: 0 3%;
 }
 .menuInfo .price {
-  text-align: center;
-<<<<<<< HEAD
   font-size: 1.2em;
 }
+
 .menuInfo .centerP1 {
   font-style: italic;
   margin: 0% auto;
 } 
 
-.indexInfo h2,
-.indexInfo p,
-.menuInfo h1, h2, p1,
-.menuInfo h3,
-.menuInfo .price,
-.menuInfo .centerP1 {
-  color: black;
-}
-
 .contactInfo p {
+  margin-top: 25px;
   padding: 0 3%;
 }
 
 .contactPgImg p,
 .menuInfo h1, h2, p1,
 .menuInfo h3,
+.menuInfo .price,
 .menuInfo .oneLine,
 .menuInfo .centerP1,
 .contactInfo p,
-.footer,
+.footer1,
+.footer2,
 #overlay {
   text-align: center;
 }
 
-/* Navigation   
-/*******************************/
-ul li.selected a {
-  font-size: 125%;
-=======
-  color: black;
-  font-size: 1.2em;
-}
-.menuInfo .oneLine {
-  text-align: center;
-}
+.menuInfo h1, h2, p1,
+.menuInfo h3,
+.menuInfo .price,
+.menuInfo .oneLine,
 .menuInfo .centerP1,
-.contactInfo p {
-  text-align: center;
-  font-style: italic;
-  padding: 3% 3%;
-  margin: 0 auto;
-}
-
-.contactInfo p {
-  margin: 25px 0;
-  padding: 0% 3%;
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
+.contactInfo p,
+.footerColor2 {
+  color: black;
 }
 
 /* Footer  
 /*******************************/
-<<<<<<< HEAD
-.footerColor1 {
-  color: White;
-}
-.footerColor2 {
-  color: #333;
-=======
+.footer1,
+ #overlay p {
+  color: white;
+ }
 
-.footerColor1 {
-  color: White;
-}
-.footer {
-  text-align: center;
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
+.fi-social-facebook{
+  font-size: 3em;
 }
 
 /* Picture Overlay Coding 
 /*******************************/
 #overlay {
-  background:rgba(0,0,0,.8);
-  width:100%;
-  height:300%;
+  background: rgba(0,0,0,.8);
+  width: 100%;
+  height: 300%;
   position: fixed;
-  top:0;
-  left:0;
-  display:none;
-<<<<<<< HEAD
+  top: 0;
+  left: 0;
+  display: none;
 }
 
 #overlay img {
@@ -291,45 +159,55 @@ ul li.selected a {
   max-width: 100%;
 }
 
-#overlay p {
-  color:white;
-}
-=======
-  text-align:center;  
-  }
-#overlay img {
-  margin-top: 10%;
-  max-width: 100%;
-  }
-#overlay p {
-  color:white;
-  }
+/* Navigation       
+/*******************************/
+.top-bar-section ul li.selected {
+  background: #333;
+} 
 
-/* Change the p text to left align
-/* for very small screens
-/*********************************/
-@media screen and (max-width: 360px) {
-.menuInfo p {
-  text-align: left;
-  margin: 0% auto;
-  padding: 0 3%;
-  }
-
+ul li.selected a {
+  color: white;
+  font-size: 1.2em;
 }
 
+.google-maps {
+  position: relative;
+  padding-bottom: 70%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-right: auto;
+  margin-bottom: 0;
+ }
+
+.citation {
+  font-style: italic;
+  font-size: .85em;
+}
+
+/* @media       
+/*******************************/
+@media screen and (max-width: 400px) {
+#fireWrapper {
+  background-size: auto 400%;
+  } 
+  
+.google-maps iframe {
+  width: 80% !important;
+  height: 80% !important;
+  margin-left: 10%;
+  margin-right: auto;
+  }
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> a04a7e66735f8a978e86e2148d9f7e7898848e2b
