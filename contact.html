@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" >
     <link rel="stylesheet" href="css/foundation.css" />
+    <link href="css/foundation-icons.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/my-styles.css" >
     <script src="js/vendor/modernizr.no-js"></script>
   </head>
   
-  <body>
+  <body class="bgColor">
   <div>  
 <!-- Top Bar -->
     <div class="contain-to-grid fixed">    
@@ -28,7 +29,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Find Us</a></li>
+            <li class = "selected"><a href="contact.html">Find Us</a></li>
           </ul>
         </section>
       </nav>
@@ -43,35 +44,22 @@
 
 <!-- Contact Info Container -->   
     <div class="contactInfo">
-      <p>Address: 112 Cassidy Avenue, Fredonia, Kentucky 42411</p>
-      <p>Hours: Tue – Sun: 10:30 AM – 8:00 PM</p>
-      <p>(270) 545-3939</p>
+       <p>Address: 112 Cassidy Avenue<br>Fredonia, Kentucky 42411</br></p>
+        <p>(270) 545-3939</p>
+        <p>Hours: Tue – Sun: 10:30 AM – 8:00 PM</p>
+        <p><a href="https://www.facebook.com/pages/CopperTop-Bar-B-Q/169907099821047?fref=ts">
+            <i class="fi-social-facebook"></i>
+         </a></p>
     </div>
+  </div>
 <!-- End Contact Info Container --> 
   
 <!-- Map Image Container --> 
-  <div class="row contactMap">
-    <div class="small-12 columns">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.615120441979!2d-88.0574184697889!3d37.20937012480217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x7bec84564f664847!2sCoppertop+Barbeque!5e0!3m2!1sen!2sus!4v1436209927219" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-  </div>
+  <div class="google-maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.615120441979!2d-88.0574184697889!3d37.20937012480217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x7bec84564f664847!2sCoppertop+Barbeque!5e0!3m2!1sen!2sus!4v1436209927219"width="600" height="450" frameborder="0" style="border:0" <!-- allowfullscreen></iframe> 
+  </div> 
 <!-- Map Image Container --> 
-
-
-
-<!-- Page Footer -->
-    <div class="row">
-      <hr>
-      <div class="large-4 large-centered columns">      
-       <p>Address: 112 Cassidy Avenue, Fredonia, Kentucky 42411</p>
-        <p>Hours: Tue – Sun: 10:30 AM – 8:00 PM</p>
-          <a href="https://www.facebook.com/pages/CopperTop-Bar-B-Q/169907099821047?fref=ts">
-            <img src="img/facebook.png" alt="Facebook Logo" class="social-icon">
-          </a>
-      </div>    
-    </div>
-<!-- End Page Footer -->
-
+  
     <script>
       document.write('<script src=' +
       ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
